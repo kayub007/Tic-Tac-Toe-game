@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#d3d3d3"
+    tools:context="com.example.kamol.tic_tac_toe_game.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/game_name"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="56sp"
+        android:textColor="#330033"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="24dp"
+        />
+    <Button
+        android:id="@+id/twoplayer"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Two player"
+        android:textSize="40sp"
+        android:onClick="playTwoPGame"
+        android:background="#303F9F"
+        android:textColor="#ffffff"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/singleplayer"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Single Player"
+        android:textSize="40sp"
+        android:onClick="playSinglePGame"
+        android:background="#303F9F"
+        android:textColor="#ffffff"
+        android:padding="10dp"/>
+
+</LinearLayout>
